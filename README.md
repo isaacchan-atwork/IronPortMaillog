@@ -1,4 +1,5 @@
 # Cisco IronPort Maillog Analyzer
+ 
 
 
 ## Overview of the script
@@ -21,14 +22,15 @@
 Download the script and place it to your profile folder (%USERPROFILE%), as it is the default location when starting PowerShell.
 
 ## Requirements:
-1. "Join-Object" from Warren Frame. Default is placed at current folder (http://ramblingcookiemonster.github.io/Join-Object/).
-2. "ChilkatDotNet47.dll" from Chilkat Software, Inc. to decode MIME subjects (http://www.chilkatsoft.com/x64_Framework47.asp).
+* "Join-Object" from Warren Frame. Default is placed at current folder (http://ramblingcookiemonster.github.io/Join-Object/).
+* "ChilkatDotNet47.dll" from Chilkat Software, Inc. to decode MIME subjects (http://www.chilkatsoft.com/x64_Framework47.asp).
 
 	You can also put them to your profile folder or you will need to modify their path in the script.
 
 
 ## Usage
 
+```
 IronPortMaillogv4.ps1 [[-LogFile] <String>] [-StartDate <String>] [-EndDate <String>] [-Verify] [<CommonParameters>]
-
+```
 
