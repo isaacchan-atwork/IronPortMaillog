@@ -5,7 +5,7 @@
 ## Overview of the script
 
 1. Read IronPort log file.
-	- Default is "`mail.current`" at your profile folder.
+	- Default is `mail.current` at your profile folder.
 	- You can specify the start and/or end date to limit the amount of log before processing, as it takes tens of minutes to analyze a large log file.
 
 2. Get information from the log.
@@ -13,7 +13,7 @@
 	- You may need to modify those regex patterns to suit your environment. You can use https://regex101.com/ or https://regexr.com/ to test your patterns first.
 	- (I would suggest https://regex101.com/ as it supports the syntax of Named Capture Group used by PowerShell.)
 	- Only logs for incoming email will be analyzed.
-	- If paramenter "`-Verify`" is added, the script will include date columns to all lists and export all parsed results to CSV files.
+	- If paramenter `-Verify` is added, the script will include date columns to all lists and export all parsed results to CSV files.
 
 3. Join the list and export final result as CSV file, with name starting with "ICID Incoming" under your profile folder.
 
