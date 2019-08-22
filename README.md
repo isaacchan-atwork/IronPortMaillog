@@ -10,8 +10,7 @@
 
 2. Get information from the log.
 	- Read the file line by line and extract related information using regex patterns. Information is stored into separate lists.
-	- You may need to modify those regex patterns to suit your environment. You can use https://regex101.com/ or https://regexr.com/ to test your patterns first.
-	- (I would suggest https://regex101.com/ as it supports the syntax of Named Capture Group used by PowerShell.)
+	- You may need to modify those regex patterns to suit your environment. You can use https://regex101.com/ or https://regexr.com/ to test your patterns first. I would suggest https://regex101.com/ as it supports the syntax of "Named Capture Group" used by PowerShell.
 	- Only logs for incoming email will be analyzed.
 	- If paramenter `-Verify` is added, the script will include date columns to all lists and export all parsed results to CSV files.
 
