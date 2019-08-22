@@ -23,8 +23,8 @@
 Download the script and place it to your profile folder (%USERPROFILE%), as it is the default location when starting PowerShell.
 
 ## Requirements:
-* "Join-Object" from Warren Frame. Default is placed at current folder (http://ramblingcookiemonster.github.io/Join-Object/).
-* "ChilkatDotNet47.dll" from Chilkat Software, Inc. to decode MIME subjects (http://www.chilkatsoft.com/x64_Framework47.asp).
+* "[Join-Object](http://ramblingcookiemonster.github.io/Join-Object/)" from Warren Frame. Default is placed at current folder.
+* "[ChilkatDotNet47.dll](http://www.chilkatsoft.com/x64_Framework47.asp)" from Chilkat Software, Inc. to decode MIME subjects.
 
 	You can also put them to your profile folder or you will need to modify their path in the script.
 
