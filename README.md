@@ -31,6 +31,6 @@ Download [the script](https://github.com/isaacchan-atwork/IronPortMaillog/blob/m
 ## Usage
 
 ```
-IronPortMaillogv4.ps1 [[-LogFile] <String>] [-StartDate <String>] [-EndDate <String>] [-Verify] [<CommonParameters>]
+IronPortMaillog.ps1 [[-LogFile] <String>] [-StartDate <String>] [-EndDate <String>] [-Verify] [<CommonParameters>]
 ```
 
