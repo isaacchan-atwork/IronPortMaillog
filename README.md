@@ -19,7 +19,7 @@
 
 ## Installation
 
-Download the script and place it to your profile folder (`%USERPROFILE%`), as it is the default location when starting PowerShell.
+Download [the script](https://github.com/isaacchan-atwork/IronPortMaillog/blob/master/IronPortMaillog.ps1) and place it to your profile folder (`%USERPROFILE%`), as it is the default location when starting PowerShell.
 
 ## Requirements
 * "[Join-Object](http://ramblingcookiemonster.github.io/Join-Object/)" from Warren Frame. Default is placed at current folder.
